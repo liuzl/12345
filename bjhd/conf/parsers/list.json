@@ -1,0 +1,22 @@
+{
+  "name": "list",
+  "example_url": "http://zyk.bjhd.gov.cn/zmhd/lxxd/",
+  "default_fields": true,
+  "rules": {
+    "root": [
+      {
+        "type": "dom",
+        "key": "detail",
+        "xpath": "//ul[@class='list']/li/a"
+      }
+    ],
+    "detail": [
+      {
+        "type": "url",
+        "key": "detail",
+        "xpath": "."
+      }
+    ]
+  },
+  "js": ""
+}
