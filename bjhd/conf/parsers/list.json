@@ -5,16 +5,9 @@
   "rules": {
     "root": [
       {
-        "type": "dom",
-        "key": "detail",
-        "xpath": "//ul[@class='list']/li/a"
-      }
-    ],
-    "detail": [
-      {
         "type": "url",
         "key": "detail",
-        "xpath": "."
+        "xpath": "//ul[@class='list']/li/a"
       }
     ]
   },
